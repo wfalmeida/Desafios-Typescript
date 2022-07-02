@@ -12,14 +12,14 @@ employee.name = "John";
 **Features implementadas no desafio:**
 
 * Elaboração de uma interface para criação de um "empregado".
-``` javascript
+``` typescript
 interface IEmployee {
     code: number,
     name: string
 }
 ```
 * Elaboração de um método para criar um novo empregado.
-```javascript
+```typescript
 const createNewEmployee = () : IEmployee => {
     const newEmployee: IEmployee = {
         name: inputName.value,
@@ -30,7 +30,7 @@ const createNewEmployee = () : IEmployee => {
 }
 ```
 * Elaboração de um método para criar um novo item HTML na lista de empregados.
-```javascript
+```typescript
 const addNewEmployeeToList = () => {
 
     const employee: IEmployee = createNewEmployee();
