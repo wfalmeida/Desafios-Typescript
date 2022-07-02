@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./dist/src/app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar pessoas</h1>
+        <form class="form">
+            <div class="input">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="input">
+                <label for="age">Idade</label>
+                <input type="number" name="age" id="age" placeholder="Digite sua idade" min="0" max="150" required>
+            </div>
+            <div class="input">
+                <label for="occupation">Profissão</label>
+                <select name="occupation" id="occupation" required>
+                    <option value="Atriz">Atriz</option>
+                    <option value="Padeiro">Padeiro</option>
+                </select>
+            </div>
+            <input type="submit" value="Cadastrar">
+        </form>
+        <div class="persons">
+            <ul class="persons-list">
+                <li class="person-item">
+                    <span>
+                        Nome
+                    </span>
+                    <span>
+                        Idade
+                    </span>
+                    <span>
+                        Profissão
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
