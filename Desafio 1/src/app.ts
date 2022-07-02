@@ -1,11 +1,7 @@
 const inputCode = document.querySelector('[name = "code"]') as HTMLInputElement;
 const inputName = document.querySelector('[name = "name"]') as HTMLInputElement;
-const submitButton = document.querySelector('button[type="submit"]')
 const employeesList = document.querySelector('ul') as HTMLDListElement;
 const form = document.querySelector('.form') as HTMLFormElement;
-
-let error = "";
-
 interface IEmployee {
     code: number,
     name: string
