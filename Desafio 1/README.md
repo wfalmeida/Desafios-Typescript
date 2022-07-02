@@ -9,7 +9,7 @@ employee.code = 10;
 employee.name = "John";
 ```
 
-Features implementadas no desafio:
+**Features implementadas no desafio:**
 
 * Elaboração de uma interface para criação de um "empregado".
 ``` javascript
