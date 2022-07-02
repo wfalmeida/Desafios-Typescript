@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./dist/src/app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 1</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar empregados</h1>
+        <form class="form">
+            <div class="input">
+                <label for="code">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="input">
+                <label for="code">Código</label>
+                <input type="number" name="code" id="code" placeholder="Digite seu código" min="0" required>
+            </div>
+            <input type="submit" value="Cadastrar">
+        </form>
+        <div class="employees">
+            <ul class="employees-list">
+                <li class="employee-item">
+                    <span>
+                        Nome
+                    </span>
+                    <span>
+                        Código
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
