@@ -1,4 +1,4 @@
-# Desafio 1 - Refatoração de código para TypeScript
+# Desafio 2 - Refatoração de código para TypeScript
 
  
 Enunciado: refatorar o código JS abaixo para que não apresente erros utilizando Typescript.
