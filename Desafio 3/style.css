@@ -1,0 +1,100 @@
+:root {
+    --background-color: #262626;
+    --primary-color: #00e6ac;
+    --secondary-color: #000;
+    --tertiary-color: #dbdbdb;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: var(--background-color);
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.actions-container {
+    width: 350px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.actions-container input {
+    width: 50%;
+    height: 35px;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    background-color: var(--tertiary-color);
+}
+
+.actions-container .actions {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.actions-container .actions button {
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.actions-container .actions .btn-sum {
+    background-color: yellowgreen;
+    margin-bottom: .5rem;
+}
+
+.actions-container .actions .btn-clear {
+    background-color: red;
+}
+
+.container h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 500px){
+    .actions-container {
+        background-color: transparent;
+    }
+    .container h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container h2 {
+        font-size: 1rem;
+    }
+}
